@@ -36,7 +36,7 @@ app.post('/api/login', (req,res) =>{
 	const user = {
 		id:1,
 		username:"Grace",
-		email:"carter77@live.fr"
+		email:"test77@live.fr"
 	}
 
 	jwt.sign({user},'secretkey',{expiresIn:'30s'},(err,token) =>{
